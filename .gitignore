@@ -1,0 +1,39 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+*.pyenv
+pyvenv.cfg
+
+# Archivos de compilación/cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos generados por CDK
+cdk.out/
+*.cdk.context.json
+
+# Archivos de sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos de test/coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+
+# Dependencias que se pueden regenerar
+*.egg-info/
+dist/
+build/
+.eggs/
